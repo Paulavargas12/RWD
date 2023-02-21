@@ -1,0 +1,75 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5% ;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit ;
+}
+
+body {
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.6rem;
+    background-color: blue;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+   font-size: 4rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.entrada a {
+display: inline-block;
+background-color: aquamarine;
+color: white;
+padding: 1rem 2rem;
+text-decoration: none;
+font-size: bold;
+text-transform: uppercase;
+}
+/* mobile*/
+@media (min-width: 400px){
+    body{
+        background-color: brown;
+    }
+
+    .entrada img {
+        display: none;
+    }
+}
+
+/*tablet*/
+
+@media (min-width: 768) {
+    body {
+        background-color: blueviolet;
+    }
+    
+}
+
+/* pc*/
+
+@media (min-width: 1140px){
+    body{
+        background-color: aqua;
+    }
+}
+
+/* mas grande que el compu*/
+
+@media (min-width: 1400px){
+    body{
+        background-color: green ;
+    }
+}
